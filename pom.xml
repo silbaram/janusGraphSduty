@@ -39,31 +39,9 @@
       <scope>runtime</scope>
     </dependency>
 
-    <!-- Tinkerpop 3.x -->
-    <dependency>
-      <groupId>org.apache.tinkerpop</groupId>
-      <artifactId>gremlin-core</artifactId>
-      <version>${tinkerpop.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.tinkerpop</groupId>
-      <artifactId>gremlin-server</artifactId>
-      <version>${tinkerpop.version}</version>
-      <exclusions>
-        <exclusion>
-          <groupId>com.codahale.metrics</groupId>
-          <artifactId>metrics-core</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
     <dependency>
       <groupId>org.apache.tinkerpop</groupId>
       <artifactId>gremlin-driver</artifactId>
-      <version>${tinkerpop.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.tinkerpop</groupId>
-      <artifactId>tinkergraph-gremlin</artifactId>
       <version>${tinkerpop.version}</version>
     </dependency>
   </dependencies>
